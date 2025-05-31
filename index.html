@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>株式会社サンプル - 会社紹介</title>
+  <title>サンプル鉄道株式会社 - 会社紹介</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -10,14 +10,14 @@
 <body>
   <header>
     <div class="header-inner">
-      <h1>株式会社サンプル</h1>
+      <h1>サンプル鉄道株式会社</h1>
       <nav>
         <ul>
           <li><a href="#about">会社概要</a></li>
           <li><a href="about.html">詳しい会社概要</a></li>
           <li><a href="#features">特徴</a></li>
-          <li><a href="#service">サービス</a></li>
-          <li><a href="#products">商品紹介</a></li>
+          <li><a href="#lines">路線</a></li>
+          <li><a href="#trains">車両紹介</a></li>
           <li><a href="#contact">お問い合わせ</a></li>
         </ul>
       </nav>
@@ -26,8 +26,8 @@
 
   <section class="hero">
     <div class="hero-content">
-      <h2>ITで未来を創造するパートナー</h2>
-      <p>株式会社サンプルはお客様の課題解決をサポートします</p>
+      <h2>地域とともに走るサンプル鉄道</h2>
+      <p>サンプル鉄道株式会社は、安全・安心・快適な鉄道サービスを提供します</p>
       <a href="#contact" class="btn">お問い合わせはこちら</a>
     </div>
   </section>
@@ -35,10 +35,10 @@
   <main>
     <section id="about" class="section">
       <h2>会社概要</h2>
-      <p>株式会社サンプルは、ITソリューションを提供する企業です。お客様のビジネス成長を全力でサポートします。</p>
+      <p>サンプル鉄道株式会社は、地域の暮らしを支える鉄道会社として、安全とサービスの向上に努めています。</p>
       <table>
-        <tr><th>社名</th><td>株式会社サンプル</td></tr>
-        <tr><th>設立</th><td>2020年1月1日</td></tr>
+        <tr><th>社名</th><td>サンプル鉄道株式会社</td></tr>
+        <tr><th>設立</th><td>1925年4月1日</td></tr>
         <tr><th>所在地</th><td>東京都千代田区1-2-3</td></tr>
         <tr><th>代表</th><td>山田 太郎</td></tr>
       </table>
@@ -51,146 +51,148 @@
       <h2>私たちの特徴</h2>
       <div class="features-list">
         <div class="feature-item">
-          <img src="https://img.icons8.com/color/96/000000/light-on--v2.png" alt="アイデア">
-          <h3>革新的な発想</h3>
-          <p>常に新しいテクノロジーを取り入れ、最適な提案を行います。</p>
+          <img src="https://img.icons8.com/color/96/000000/train.png" alt="安全運行">
+          <h3>安全運行</h3>
+          <p>徹底した点検と教育で安全な運行を追求しています。</p>
         </div>
         <div class="feature-item">
-          <img src="https://img.icons8.com/color/96/000000/teamwork--v2.png" alt="チームワーク">
-          <h3>チームワーク</h3>
-          <p>経験豊富なプロフェッショナルが連携し、プロジェクトを成功に導きます。</p>
+          <img src="https://img.icons8.com/color/96/000000/clock--v2.png" alt="正確なダイヤ">
+          <h3>正確なダイヤ</h3>
+          <p>時間通りの発着で、お客様の信頼にお応えします。</p>
         </div>
         <div class="feature-item">
-          <img src="https://img.icons8.com/color/96/000000/handshake--v2.png" alt="信頼">
-          <h3>信頼と実績</h3>
-          <p>多くのお客様との取引実績があり、信頼を大切にしています。</p>
+          <img src="https://img.icons8.com/color/96/000000/eco.png" alt="環境への配慮">
+          <h3>環境への配慮</h3>
+          <p>省エネ車両や緑化事業など、環境にもやさしい鉄道を目指します。</p>
         </div>
       </div>
     </section>
 
-    <section id="service" class="section">
-      <h2>サービス</h2>
+    <section id="lines" class="section">
+      <h2>路線</h2>
       <div class="services-list">
+        <!-- すべての路線カードにScratchロゴを配置 -->
         <div class="service-card">
-          <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=cover&w=400&q=80" alt="Webサイト制作">
-          <h3>Webサイト制作</h3>
-          <p>魅力的で使いやすいWebサイトをデザイン・構築します。</p>
+          <div class="scratch-card-logo"></div>
+          <h3>本線</h3>
+          <p>都心と郊外を結ぶ主要路線。通勤・通学の大動脈です。</p>
         </div>
         <div class="service-card">
-          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=cover&w=400&q=80" alt="システム開発">
-          <h3>システム開発</h3>
-          <p>業務効率化や自動化を実現するシステムを開発します。</p>
+          <div class="scratch-card-logo"></div>
+          <h3>空港線</h3>
+          <p>主要空港と市街地を直結。観光やビジネスに便利です。</p>
         </div>
         <div class="service-card">
-          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=cover&w=400&q=80" alt="ITコンサルティング">
-          <h3>ITコンサルティング</h3>
-          <p>最適なIT活用方法をご提案し、ビジネスを加速させます。</p>
+          <div class="scratch-card-logo"></div>
+          <h3>山岳線</h3>
+          <p>山間部を走る自然豊かな路線。観光にも人気です。</p>
         </div>
         <div class="service-card">
-          <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=cover&w=400&q=80" alt="クラウド導入支援">
-          <h3>クラウド導入支援</h3>
-          <p>最新のクラウドサービス導入をトータルサポートします。</p>
+          <div class="scratch-card-logo"></div>
+          <h3>海岸線</h3>
+          <p>海沿いを走る絶景路線。リゾート地へのアクセスも抜群。</p>
         </div>
         <div class="service-card">
-          <img src="https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?auto=format&fit=cover&w=400&q=80" alt="セキュリティ診断">
-          <h3>セキュリティ診断</h3>
-          <p>高度なセキュリティ診断で安全なシステム運用を実現します。</p>
+          <div class="scratch-card-logo"></div>
+          <h3>新都市線</h3>
+          <p>発展著しい新都市を結ぶ新しい路線です。</p>
         </div>
         <div class="service-card">
-          <img src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?auto=format&fit=cover&w=400&q=80" alt="モバイルアプリ開発">
-          <h3>モバイルアプリ開発</h3>
-          <p>iOS/Android向けアプリを企画から開発までワンストップで提供します。</p>
+          <div class="scratch-card-logo"></div>
+          <h3>空港環状線</h3>
+          <p>空港周辺を循環する便利な路線。</p>
         </div>
         <div class="service-card">
-          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=cover&w=400&q=80" alt="ECサイト構築">
-          <h3>ECサイト構築</h3>
-          <p>ネットショップの企画・制作・運用をトータルでご支援します。</p>
+          <div class="scratch-card-logo"></div>
+          <h3>都市直通線</h3>
+          <p>主要都市間をダイレクトに結びます。</p>
         </div>
         <div class="service-card">
-          <img src="https://images.unsplash.com/photo-1515168833906-d2a3b82b1a48?auto=format&fit=cover&w=400&q=80" alt="AI導入コンサル">
-          <h3>AI導入コンサル</h3>
-          <p>業務効率化のためのAI活用を提案・導入支援します。</p>
+          <div class="scratch-card-logo"></div>
+          <h3>観光特急線</h3>
+          <p>人気観光地を快適に結ぶ特急路線です。</p>
         </div>
         <div class="service-card">
-          <img src="https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?auto=format&fit=cover&w=400&q=80" alt="業務自動化RPA">
-          <h3>業務自動化RPA</h3>
-          <p>RPAツールで日々の業務を自動化し、コスト削減を実現します。</p>
+          <div class="scratch-card-logo"></div>
+          <h3>支線A</h3>
+          <p>地域密着型の短距離路線。生活を支えます。</p>
         </div>
         <div class="service-card">
-          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=cover&w=400&q=80" alt="IT人材教育">
-          <h3>IT人材教育</h3>
-          <p>ITスキル研修やリスキリングプログラムを提供しています。</p>
+          <div class="scratch-card-logo"></div>
+          <h3>支線B</h3>
+          <p>地方都市を中心に運行する支線です。</p>
         </div>
       </div>
     </section>
 
-    <section id="products" class="section products">
-      <h2>商品紹介</h2>
+    <section id="trains" class="section products">
+      <h2>車両紹介</h2>
       <div class="products-list">
+        <!-- すべての車両カードにScratchロゴを配置 -->
         <div class="product-card" data-product="0">
-          <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=cover&w=400&q=80" alt="商品A">
-          <h3>スマートIoTデバイス</h3>
-          <p>遠隔管理が可能な次世代IoTデバイス。オフィスや工場の効率化を実現します。</p>
-          <p class="price">価格：¥29,800</p>
+          <div class="scratch-card-logo"></div>
+          <h3>1000系通勤電車</h3>
+          <p>都市部の通勤に特化した省エネ車両。</p>
+          <p class="price">定員：120名</p>
         </div>
         <div class="product-card" data-product="1">
-          <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=cover&w=400&q=80" alt="商品B">
-          <h3>AIチャットボット</h3>
-          <p>カスタマーサポートに最適なAI搭載のチャットボット。24時間自動対応が可能です。</p>
-          <p class="price">価格：¥98,000</p>
+          <div class="scratch-card-logo"></div>
+          <h3>2000系特急型</h3>
+          <p>長距離移動に快適な座席と静かな車内。</p>
+          <p class="price">定員：80名</p>
         </div>
         <div class="product-card" data-product="2">
-          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=cover&w=400&q=80" alt="商品C">
-          <h3>業務管理クラウドシステム</h3>
-          <p>社員の勤怠管理やプロジェクト進捗を一元管理できるクラウドサービス。</p>
-          <p class="price">価格：月額 ¥12,000</p>
+          <div class="scratch-card-logo"></div>
+          <h3>3000系観光列車</h3>
+          <p>大きな窓と特別内装の観光用車両。</p>
+          <p class="price">定員：60名</p>
         </div>
         <div class="product-card" data-product="3">
-          <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=cover&w=400&q=80" alt="商品D">
-          <h3>クラウド型名刺管理</h3>
-          <p>スマホで撮影するだけで簡単に名刺をデジタル化・共有。</p>
-          <p class="price">価格：月額 ¥2,900</p>
+          <div class="scratch-card-logo"></div>
+          <h3>4000系空港アクセス車両</h3>
+          <p>大きな荷物スペースと多言語案内を備えた新型車両。</p>
+          <p class="price">定員：100名</p>
         </div>
         <div class="product-card" data-product="4">
-          <img src="https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?auto=format&fit=cover&w=400&q=80" alt="商品E">
-          <h3>オンライン会議システム</h3>
-          <p>高画質・高音質でスムーズなコミュニケーションを実現。</p>
-          <p class="price">価格：月額 ¥9,800</p>
+          <div class="scratch-card-logo"></div>
+          <h3>5000系快速電車</h3>
+          <p>都市間の素早い移動に適した高速車両。</p>
+          <p class="price">定員：110名</p>
         </div>
         <div class="product-card" data-product="5">
-          <img src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?auto=format&fit=cover&w=400&q=80" alt="商品F">
-          <h3>AI画像解析ソフト</h3>
-          <p>画像から自動で異常を検出、品質管理や医療現場で活用可能。</p>
-          <p class="price">価格：¥250,000</p>
+          <div class="scratch-card-logo"></div>
+          <h3>6000系山岳車両</h3>
+          <p>急勾配も力強く走る山岳専用車両。</p>
+          <p class="price">定員：70名</p>
         </div>
         <div class="product-card" data-product="6">
-          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=cover&w=400&q=80" alt="商品G">
-          <h3>リモートワーク管理ツール</h3>
-          <p>社員の勤怠や作業進捗を遠隔で管理・分析。</p>
-          <p class="price">価格：月額 ¥7,800</p>
+          <div class="scratch-card-logo"></div>
+          <h3>7000系リゾート車両</h3>
+          <p>リゾート地へのアクセスに最適な快適車両。</p>
+          <p class="price">定員：90名</p>
         </div>
         <div class="product-card" data-product="7">
-          <img src="https://images.unsplash.com/photo-1515168833906-d2a3b82b1a48?auto=format&fit=cover&w=400&q=80" alt="商品H">
-          <h3>AI翻訳デバイス</h3>
-          <p>リアルタイムで多言語翻訳可能な携帯型デバイス。</p>
-          <p class="price">価格：¥39,800</p>
+          <div class="scratch-card-logo"></div>
+          <h3>8000系新都市型</h3>
+          <p>新都市エリア向けの最新鋭車両。</p>
+          <p class="price">定員：130名</p>
         </div>
         <div class="product-card" data-product="8">
-          <img src="https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?auto=format&fit=cover&w=400&q=80" alt="商品I">
-          <h3>スマートロックシステム</h3>
-          <p>スマホで解錠、入退室履歴も自動記録。安心・安全を提供。</p>
-          <p class="price">価格：¥18,000</p>
+          <div class="scratch-card-logo"></div>
+          <h3>9000系支線車両</h3>
+          <p>支線専用の小型・高効率車両。</p>
+          <p class="price">定員：50名</p>
         </div>
         <div class="product-card" data-product="9">
-          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=cover&w=400&q=80" alt="商品J">
-          <h3>IoT温湿度センサー</h3>
-          <p>遠隔地の温湿度データをリアルタイムでモニタリング。</p>
-          <p class="price">価格：¥12,000</p>
+          <div class="scratch-card-logo"></div>
+          <h3>SL観光号</h3>
+          <p>レトロな蒸気機関車で特別な旅を。</p>
+          <p class="price">定員：40名</p>
         </div>
       </div>
     </section>
 
-    <!-- 商品詳細モーダル -->
+    <!-- 車両詳細モーダル -->
     <div id="modalOverlay" class="modal-overlay" style="display:none;">
       <div class="modal-content">
         <button class="modal-close" id="modalClose">&times;</button>
@@ -202,13 +204,13 @@
       <h2>お問い合わせ</h2>
       <p>ご質問やご相談は、下記メールアドレスまでご連絡ください。</p>
       <ul>
-        <li>Email: info@example.co.jp</li>
+        <li>Email: info@sample-railway.co.jp</li>
         <li>電話: 03-1234-5678</li>
       </ul>
     </section>
   </main>
   <footer>
-    <p>&copy; 2025 株式会社サンプル</p>
+    <p>&copy; 2025 サンプル鉄道株式会社</p>
   </footer>
   <script src="script.js"></script>
 </body>
