@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 header {
-  background: #1e90ff;
+  background: #ffa9a9;
   color: #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
@@ -38,10 +38,10 @@ nav a {
   transition: color 0.2s;
 }
 nav a:hover {
-  color: #ffe066;
+  color: #fff0f0;
 }
 .hero {
-  background: linear-gradient(120deg, #1e90ff 60%, #a8e6ff 100%);
+  background: linear-gradient(120deg, #ffa9a9 60%, #ffd9d9 100%);
   color: #fff;
   text-align: center;
   padding: 4em 1em 3em 1em;
@@ -61,8 +61,8 @@ nav a:hover {
 }
 .btn {
   display: inline-block;
-  background: #ffe066;
-  color: #1e90ff;
+  background: #fff0f0;
+  color: #ffa9a9;
   font-weight: bold;
   padding: 0.8em 2.2em;
   border-radius: 2em;
@@ -75,7 +75,7 @@ nav a:hover {
 }
 .btn:hover {
   background: #fff;
-  color: #007acc;
+  color: #d06060;
 }
 .section {
   max-width: 1000px;
@@ -86,7 +86,7 @@ nav a:hover {
   box-shadow: 0 2px 14px rgba(0,0,0,0.07);
 }
 h2 {
-  color: #1e90ff;
+  color: #ffa9a9;
   margin-top: 0;
 }
 table {
@@ -101,7 +101,7 @@ th, td {
   text-align: left;
 }
 .features {
-  background: #e9f7fe;
+  background: #ffeaea;
 }
 .features-list {
   display: flex;
@@ -113,7 +113,7 @@ th, td {
 .feature-item {
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 1px 8px rgba(30,144,255,0.07);
+  box-shadow: 0 1px 8px rgba(255,169,169,0.07);
   padding: 1.5em 1em;
   text-align: center;
   width: 200px;
@@ -122,18 +122,29 @@ th, td {
 }
 .feature-item:hover {
   transform: translateY(-4px) scale(1.03);
-  box-shadow: 0 4px 16px rgba(30,144,255,0.12);
+  box-shadow: 0 4px 16px rgba(255,169,169,0.12);
 }
 .feature-item img {
   width: 60px;
   margin-bottom: 0.7em;
 }
 .feature-item h3 {
-  color: #007acc;
+  color: #ff6f6f;
   margin-bottom: 0.4em;
 }
 
-/* サービス横スクロール */
+/* Scratchロゴをカード用に表示 */
+.scratch-card-logo {
+  width: 100%;
+  height: 140px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/7/75/Scratch_cat_icon.svg') center/contain no-repeat;
+  margin-bottom: 1em;
+  border-radius: 8px;
+  background-color: #fffbe8;
+  display: block;
+}
+
+/* 路線(サービス)横スクロール */
 .services-list {
   display: flex;
   gap: 2em;
@@ -143,13 +154,13 @@ th, td {
   overflow-x: auto;
   padding-bottom: 1em;
   scrollbar-width: thin;
-  scrollbar-color: #b3e5fc #f0f8ff;
+  scrollbar-color: #ffd9d9 #ffeaea;
 }
 .service-card {
-  background: #f0f8ff;
+  background: #ffeaea;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 1px 10px rgba(30,144,255,0.07);
+  box-shadow: 0 1px 10px rgba(255,169,169,0.07);
   width: 300px;
   min-width: 260px;
   margin-bottom: 1em;
@@ -159,15 +170,10 @@ th, td {
 }
 .service-card:hover {
   transform: translateY(-4px) scale(1.03);
-  box-shadow: 0 4px 16px rgba(30,144,255,0.12);
-}
-.service-card img {
-  width: 100%;
-  height: 140px;
-  object-fit: cover;
+  box-shadow: 0 4px 16px rgba(255,169,169,0.12);
 }
 .service-card h3 {
-  color: #1e90ff;
+  color: #ffa9a9;
   margin: 0.8em 0 0.4em 0;
 }
 .service-card p {
@@ -178,14 +184,14 @@ th, td {
   height: 8px;
 }
 .services-list::-webkit-scrollbar-thumb {
-  background: #b3e5fc;
+  background: #ffd9d9;
   border-radius: 4px;
 }
 .services-list::-webkit-scrollbar-track {
-  background: #f0f8ff;
+  background: #ffeaea;
 }
 
-/* 商品紹介セクション 横スクロール対応 */
+/* 車両紹介セクション 横スクロール対応 */
 .products-list {
   display: flex;
   gap: 2em;
@@ -195,33 +201,28 @@ th, td {
   overflow-x: auto;
   padding-bottom: 1em;
   scrollbar-width: thin;
-  scrollbar-color: #ffe066 #fff8e1;
+  scrollbar-color: #ffd9d9 #fff0f0;
 }
 .product-card {
-  background: #fff8e1;
+  background: #fff0f0;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 1px 10px rgba(255,193,7,0.09);
+  box-shadow: 0 1px 10px rgba(255,169,169,0.09);
   width: 300px;
   min-width: 260px;
   margin-bottom: 1em;
   transition: transform 0.14s, box-shadow 0.14s;
   text-align: center;
-  border: 1px solid #ffe066;
+  border: 1px solid #ffd9d9;
   flex: 0 0 auto;
   cursor: pointer;
 }
 .product-card:hover {
   transform: translateY(-4px) scale(1.03);
-  box-shadow: 0 4px 16px rgba(255,193,7,0.14);
-}
-.product-card img {
-  width: 100%;
-  height: 140px;
-  object-fit: cover;
+  box-shadow: 0 4px 16px rgba(255,169,169,0.14);
 }
 .product-card h3 {
-  color: #ff9800;
+  color: #ff6f6f;
   margin: 0.8em 0 0.4em 0;
 }
 .product-card p {
@@ -229,7 +230,7 @@ th, td {
   margin: 0.2em 0;
 }
 .product-card .price {
-  color: #d84315;
+  color: #d06060;
   font-weight: bold;
   margin-bottom: 1em;
 }
@@ -237,11 +238,11 @@ th, td {
   height: 8px;
 }
 .products-list::-webkit-scrollbar-thumb {
-  background: #ffe066;
+  background: #ffd9d9;
   border-radius: 4px;
 }
 .products-list::-webkit-scrollbar-track {
-  background: #fff8e1;
+  background: #fff0f0;
 }
 
 /* モーダルウィンドウ */
@@ -249,7 +250,7 @@ th, td {
   position: fixed;
   z-index: 5000;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(30, 30, 30, 0.55);
+  background: rgba(255, 169, 169, 0.55);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -285,21 +286,21 @@ th, td {
   transition: color 0.15s;
 }
 .modal-close:hover {
-  color: #1e90ff;
+  color: #ffa9a9;
 }
-.modal-content img {
+.modal-content iframe {
   width: 100%;
-  height: 160px;
-  object-fit: cover;
+  height: 140px;
   border-radius: 8px;
   margin-bottom: 1em;
+  display: block;
 }
 .modal-content h3 {
-  color: #ff9800;
+  color: #ff6f6f;
   margin: 0.4em 0 0.2em 0;
 }
 .modal-content .price {
-  color: #d84315;
+  color: #d06060;
   font-weight: bold;
   margin-bottom: 1em;
 }
@@ -320,7 +321,7 @@ th, td {
 }
 
 footer {
-  background: #1e90ff;
+  background: #ffa9a9;
   color: #fff;
   text-align: center;
   padding: 1.3em 0;
