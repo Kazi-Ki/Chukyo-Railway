@@ -317,3 +317,32 @@ footer {
     padding: 1em 0.6em 0.8em 0.6em;
   }
 }
+.section.recruit {
+  background: #f3f9ff;
+  border-radius: 12px;
+  padding: 2em 1em 2em 1em;
+  margin: 2em 0;
+  box-shadow: 0 2px 8px rgba(7,55,99,0.05);
+  text-align: center;
+}
+.section.recruit h2 {
+  margin-bottom: 1em;
+  color: #073763;
+  letter-spacing: 0.02em;
+}
+.recruit-steps ol {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+  padding-left: 1.2em;
+}
+.recruit-steps li {
+  font-size: 1.08em;
+  margin-bottom: 0.9em;
+  line-height: 1.6;
+}
+.recruit-steps a {
+  color: #205d9c;
+  text-decoration: underline;
+  font-weight: 600;
+}
