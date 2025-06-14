@@ -6,34 +6,34 @@ const productDetails = [
     detail: "窓を大きくしてお座敷として素晴らしい仕様にしたのとカフェテリアを設置"
   },
   {
-    scratch: `<iframe src="https://scratch.mit.edu/projects/1164410000/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class="modal-media"></iframe>`,
+    scratch: `<iframe src="https://scratch.mit.edu/projects/1061422464/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class="modal-media"></iframe>`,
     name: "C-600型",
     desc: "引退車両",
     detail: "C-600形は古くて環境に優しくないので引退"
   },
   {
     scratch: `<iframe src="https://scratch.mit.edu/projects/1061422464/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class="modal-media"></iframe>`,
-    name: "3000系観光列車",
-    desc: "大きな窓と特別内装の観光用車両。",
-    detail: "パノラマウィンドウと展望ラウンジ、地域の特産を活かした内装が特徴です。"
+    name: "C1000系",
+    desc: "表示できる情報がありません",
+    detail: "この辺の車両は情報が少ないため、現状がわかりません。"
   },
   {
-    scratch: `<iframe src="https://scratch.mit.edu/projects/1164412222/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class="modal-media"></iframe>`,
-    name: "4000系空港アクセス車両",
-    desc: "大きな荷物スペースと多言語案内を備えた新型車両。",
-    detail: "空港利用者向けに大容量荷物スペース、多言語対応の案内表示を装備しています。"
+    scratch: `<iframe src="https://scratch.mit.edu/projects/1126485238/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class="modal-media"></iframe>`,
+    name: "C1120系",
+    desc: "中京電鉄C1100形付属編成を改造して子会社の新大宮鉄道に譲渡してもらいました。",
+    detail: "大赤字路線の埼玉線に導入してみました。詳細は以下の通りです 最高時速 90km 起動加速力2.5km 運用路線埼玉線 1編成あたり2両"
   },
   {
-    scratch: `<iframe src="https://scratch.mit.edu/projects/1164413333/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class="modal-media"></iframe>`,
-    name: "5000系快速電車",
-    desc: "都市間の素早い移動に適した高速車両。",
-    detail: "高速運転と快適な乗り心地を両立。都市間輸送の主力車両です。"
+    scratch: `<iframe src="https://scratch.mit.edu/projects/1039653307/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class="modal-media"></iframe>`,
+    name: "C2000系",
+    desc: "表示できる情報がありません",
+    detail: "この辺の車両は情報が少ないため、現状がわかりません。"
   },
   {
-    scratch: `<iframe src="https://scratch.mit.edu/projects/1164414444/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class="modal-media"></iframe>`,
-    name: "6000系山岳車両",
-    desc: "急勾配も力強く走る山岳専用車両。",
-    detail: "強力なモーターと耐寒・耐雪装備で山岳路線も安全に運行します。"
+    scratch: `<iframe src="https://scratch.mit.edu/projects/1174067713/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class="modal-media"></iframe>`,
+    name: "C4000系",
+    desc: "表示できる情報がありません",
+    detail: "貴重な交直流電車(50/60Hz)だったため陸奥急さんから、通勤快速用に譲渡させてもらいました"
   },
   {
     scratch: `<iframe src="https://scratch.mit.edu/projects/1164415555/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class="modal-media"></iframe>`,
