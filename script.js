@@ -1,18 +1,18 @@
 const productDetails = [
   {
-    scratch: `<iframe src="https://scratch.mit.edu/projects/1164408676/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class="modal-media"></iframe>`,
-    name: "1000系通勤電車",
-    desc: "都市部の通勤に特化した省エネ車両。",
-    detail: "最新の省エネ技術を搭載し、快適な通勤空間と静音性を両立。乗降もスムーズな広いドア設計です。"
+    scratch: `<iframe src="https://scratch.mit.edu/projects/1110900471/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class="modal-media"></iframe>`,
+    name: "T0系特急電車",
+    desc: "特急ちゅうきょうで使用されている車両",
+    detail: "窓を大きくしてお座敷として素晴らしい仕様にしたのとカフェテリアを設置"
   },
   {
     scratch: `<iframe src="https://scratch.mit.edu/projects/1164410000/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class="modal-media"></iframe>`,
-    name: "2000系特急型",
-    desc: "長距離移動に快適な座席と静かな車内。",
-    detail: "リクライニングシートやWi-Fiを完備。静粛性に優れ、長距離でも快適な移動を実現。"
+    name: "C-600型",
+    desc: "引退車両",
+    detail: "C-600形は古くて環境に優しくないので引退"
   },
   {
-    scratch: `<iframe src="https://scratch.mit.edu/projects/1164411111/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class="modal-media"></iframe>`,
+    scratch: `<iframe src="https://scratch.mit.edu/projects/1061422464/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class="modal-media"></iframe>`,
     name: "3000系観光列車",
     desc: "大きな窓と特別内装の観光用車両。",
     detail: "パノラマウィンドウと展望ラウンジ、地域の特産を活かした内装が特徴です。"
